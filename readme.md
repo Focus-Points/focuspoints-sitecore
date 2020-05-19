@@ -21,7 +21,7 @@ In order to start using the FocusPoints module functionality in the website we n
 You can also change some other settings. The following settings are supported.
 
 | Name | Default Value | Required | Description |
-|-|-|-|-|-|
+|-|-|-|-|
 | `FocusPoints.Enabled` | `true` | False | Enable FocusPoints or fallback to default Sitecore MediaManager.GetMediaUrl() |
 | `FocusPoints.DisabledInExperienceEditor` | `true`| False | Don't use FocusPoints image when in the Experience Editor |
 | `FocusPoints.Client.EndpointUrl` | `https://image.focuspoints.io` | False | The FocusPoints endpoint |
