@@ -1,0 +1,23 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Web.UI.Controls.Common.UserControls
+@model RenderingModel
+@{
+	var rendering = Html.Sitecore().Controls().GetUserControl(Model.Rendering);
+	rendering.Class = "sc-FocusPointsHelper";
+
+	var htmlAttributes = rendering.HtmlAttributes;
+}
+<div @htmlAttributes>
+	<div class="frames"></div>
+	<div class="info">
+		<div class="helper-tool">
+			<h1>Click the image to set the focus point</h1>
+			<div class="helper-tool-target">
+				<img class="helper-tool-img" />
+				<span class="reticle"></span>
+				<img class="target-overlay" />
+			</div>
+		</div>
+	</div>
+</div>

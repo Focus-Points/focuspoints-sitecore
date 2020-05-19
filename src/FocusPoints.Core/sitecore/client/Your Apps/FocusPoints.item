@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {5202FD68-2A73-421C-BA30-609F48F214D2}
+database: core
+path: /sitecore/client/Your Apps/FocusPoints
+parent: {E9A53290-8618-43EC-9A4B-7DA2AF424800}
+name: FocusPoints
+master: {00000000-0000-0000-0000-000000000000}
+template: {8152CF09-9DD0-40C0-B806-6E91FDF389BC}
+templatekey: Speak-DialogPage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2351
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{4F72A793-BDBC-4262-9523-6AADD8FEA487}"><r id="{DAFAFFB8-74AF-4141-A96A-70B16834CEC6}" par="IsLicenceCheckDisabled&amp;PageCodeScriptFileName=%2F-%2Fspeak%2Fv1%2Fclient%2FFocusPointsHelper.js&amp;PageCodeTypeName&amp;SpeakCoreVersion&amp;AssetsLoadingType" ph="Page.Code" uid="{B4254C27-88E1-40E7-9C24-1E2346E75C68}" /><r id="{7BA20861-BC27-4F0E-94DD-8F974628A5C4}" ph="Page.Body" uid="{7E0DB1C3-2963-4AAB-B779-E324326137DE}" /><r id="{642C1164-3AE1-4D86-8474-3BC19FE4433B}" ph="DialogHeader" uid="{A93FB334-E063-4BAC-8F43-3F661AEBDD75}" /><r ds="{7BD75A8E-196C-4642-8427-49896AE290F9}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=MainTitle" ph="DialogHeader.Title" uid="{65AFEA7F-C21A-45B9-9AC0-C5B61ACF4E73}" /><r id="{8817F241-28C9-45AA-8C8D-434E71BCEF4B}" ph="DialogContent" uid="{69E6692C-D3C8-4B44-BCC6-2AD2EC1A99DC}" /><r id="{D8C6868D-7AE2-447F-9FD2-E712FDFA46C1}" ph="DialogFooter" uid="{284B0F4E-5BD8-4E1A-B308-2F35194A2AE0}" /><r ds="{7BD75A8E-196C-4642-8427-49896AE290F9}" id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="TextType&amp;Text=0%2C0&amp;Tooltip&amp;IsVisible&amp;AccessKey&amp;ConfigurationItem&amp;Id=FocusPoint&amp;Behaviors&amp;FieldName" ph="DialogContent.Main" uid="{07E82840-088F-496A-A3B1-C0FB85DAAC54}" /><r id="{32477EE6-0138-40B4-A9AD-8D2D831E879C}" ph="DialogContent.Main" uid="{EB7E44CC-945C-4618-B1BF-9AB021F99336}" /><r ds="{B4BD383D-24B6-4887-8CA6-83302AADEE3A}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=SaveButton" ph="DialogFooter.Buttons" uid="{34D204C7-C7F5-4F1E-BC8F-DE62D03C1D66}" /><r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7b732D2CDA-632B-4A87-9CD5-B3F7D0AC61D1%7d&amp;Id=SaveButtonRule&amp;TargetControl=SaveButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{A596B1C5-1C51-45E9-A0A1-5FCBAAA64E77}" /><r ds="{BEABC7A4-0D0A-4D4C-9220-CF3124FA4DA3}" id="{913AB005-2527-4C2D-9827-FB3A8DFB135C}" par="Id=CancelButton" ph="DialogFooter.Buttons" uid="{2D367E52-7A40-482B-930C-B06F0B9D9406}" /><r id="{1169C5EF-E49C-4B59-848D-9C9204E40D12}" par="RuleItemId=%7bA4BF796F-0C52-45C3-8922-2B39D8EE9A23%7d&amp;Id=CancelButtonRule&amp;TargetControl=CancelButton&amp;Trigger=click&amp;Field=Rule" ph="Page.Body" uid="{7946D46B-DEB6-4427-BCD9-1F93697A88EB}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 8d2105a8-23db-4ab4-8f17-5a3515dec68a
+
+----field----
+field: {7205A57F-93B4-413A-AA9A-6B16BBC59565}
+name: BrowserTitle
+key: browsertitle
+content-length: 11
+
+FocusPoints
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170412T112823Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8d2105a8-23db-4ab4-8f17-5a3515dec68a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200512T104137Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

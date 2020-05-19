@@ -1,0 +1,10 @@
+module.exports = function () {
+	var config = {};
+	config.siteRoot = 'C:/Inetpub/focuspoints-sitecore';
+	config.webPublishingProfileTargets = 'C:/Projects/focuspoints-sitecore/FocusPoints.wpp.targets';
+	config.solutionName = "FocusPoints";
+	config.buildConfiguration = "Debug";
+	config.runCleanBuilds = true;
+	
+	return config;
+}

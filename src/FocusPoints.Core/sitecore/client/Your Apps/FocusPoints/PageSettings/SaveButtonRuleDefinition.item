@@ -1,0 +1,209 @@
+----item----
+version: 1
+id: {732D2CDA-632B-4A87-9CD5-B3F7D0AC61D1}
+database: core
+path: /sitecore/client/Your Apps/FocusPoints/PageSettings/SaveButtonRuleDefinition
+parent: {26448641-D6D3-4DB2-AAEF-64ACF7695CBC}
+name: SaveButtonRuleDefinition
+master: {00000000-0000-0000-0000-000000000000}
+template: {1F99AE6E-22B8-419E-81DB-A983E619325E}
+templatekey: RuleDefinition
+
+----field----
+field: {431A0113-9D08-4DAE-8C5B-AC8301512BD8}
+name: Rule
+key: rule
+content-length: 522
+
+<ruleset>
+  <rule uid="{0AD6F4AF-A57B-4351-8FD7-401E88617C5A}">
+    <conditions>
+      <condition id="{B5CF2ABD-0811-4220-9805-8F6E62F4F4AC}" uid="C9FA32942F3C441AB753B4574B6A071C" />
+    </conditions>
+    <actions>
+      <action id="{1C2C694E-D4F2-4262-B43C-B34097DE81BF}" uid="{A6BE1FD5-1E5E-45B6-9952-36505D3C07F1}" targetControl="FocusPoint" targetProperty="text" />
+      <action id="{5C48DD1A-CA07-4AAF-86BF-84F0885BAE41}" uid="{F3972F28-3767-496B-BA93-5F80345B0EC2}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: da
+version: 1
+revision: 58356b7d-9e7e-4f30-b005-b6a77b1d024e
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 26
+
+CancelButtonRuleDefinition
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160115T143156Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+58356b7d-9e7e-4f30-b005-b6a77b1d024e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170626T115927Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn
+----version----
+language: de-DE
+version: 1
+revision: 2da671b5-6330-4378-9334-d52ef5727f2c
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 30
+
+AbbrechenButtonRegeldefinition
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160115T143305Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2da671b5-6330-4378-9334-d52ef5727f2c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170626T115927Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn
+----version----
+language: en
+version: 1
+revision: 2af4cdf4-921e-4c07-8156-78f4cf6a1b18
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130724T181106
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2af4cdf4-921e-4c07-8156-78f4cf6a1b18
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200512T111640Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: ja-JP
+version: 1
+revision: 2b05eed3-8d09-46e1-8db5-a70302e0c248
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 15
+
+キャンセル ボタン ルール定義
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160115T143411Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2b05eed3-8d09-46e1-8db5-a70302e0c248
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170626T115927Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

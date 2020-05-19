@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {32477EE6-0138-40B4-A9AD-8D2D831E879C}
+database: core
+path: /sitecore/client/Your Apps/FocusPoints/PageSettings/FocusPointsHelper
+parent: {26448641-D6D3-4DB2-AAEF-64ACF7695CBC}
+name: FocusPointsHelper
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 65
+
+/sitecore/shell/client/FocusPoints/Views/FocusPointsHelper.cshtml
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: en
+version: 1
+revision: dbb9455c-28ec-4875-acc4-117c60075c65
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170412T114519Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+dbb9455c-28ec-4875-acc4-117c60075c65
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200428T094443Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

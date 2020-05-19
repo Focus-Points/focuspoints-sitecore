@@ -1,0 +1,144 @@
+﻿.sc-FocusPointsHelper {
+	position: relative;
+	width: 1004px;
+	height: 618px;
+}
+
+/* !INFO */
+/*-----------------------------------------*/
+.sc-FocusPointsHelper .info {
+	position: absolute;
+	left: 2%;
+	top: 2%;
+	width: 480px;
+	box-shadow: 0px 0px 13px rgba(0,0,0,0.6);
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+/* !HELPER TOOL GUI */
+/*-----------------------------------------*/
+.sc-FocusPointsHelper .info .helper-tool h1 {
+	font-size: 14px;
+}
+
+.sc-FocusPointsHelper .info .helper-tool p {
+	font-size: 0.825rem;
+	padding: 0;
+	margin: 0 0 1em;
+}
+
+.sc-FocusPointsHelper .info .helper-tool,
+.sc-FocusPointsHelper .info .helper-tool * {
+	box-sizing: border-box;
+}
+
+.sc-FocusPointsHelper .info .helper-tool {
+	padding: 12px;
+	border: 1px solid #fcfcfc;
+}
+
+.sc-FocusPointsHelper .info .helper-tool input {
+	position: relative;
+	width: 100%;
+}
+
+/* !HELPER TOOL TARGETING SYSTEM */
+.sc-FocusPointsHelper .info .helper-tool-target {
+	position: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+.sc-FocusPointsHelper .info .helper-tool-target img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.sc-FocusPointsHelper .info .helper-tool-target .target-overlay,
+.sc-FocusPointsHelper .info .helper-tool-target .reticle {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sc-FocusPointsHelper .info .helper-tool-target .target-overlay {
+	cursor: pointer;
+	opacity: 0.01;
+}
+
+.sc-FocusPointsHelper .info .helper-tool-target .reticle {
+	display: block;
+	background: url("../Images/target.png");
+	width: 100px;
+	height: 100px;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	top:50%;
+	left:50%;
+	transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+}
+
+/* !FOCUSED IMAGES */
+/*-----------------------------------------*/
+.sc-FocusPointsHelper .focuspoint {
+	position: absolute;
+	overflow: hidden;
+	border: 5px solid #fff;
+	margin: -5px 0 0 -5px;
+}
+
+.sc-FocusPointsHelper .focuspoint img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	display: block;
+	/* fill and maintain aspect ratio */
+	width: auto;
+	height: auto;
+	min-width: 100%;
+	min-height: 100%;
+	max-height: none;
+	max-width: none;
+	transition: all 500ms ease-in-out;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+}
+
+/* !CONTAINERS */
+/*-----------------------------------------*/
+.sc-FocusPointsHelper .frame1, .sc-FocusPointsHelper .frame4, .sc-FocusPointsHelper .frame7 {
+	width: 66.6666667%;
+	left: 0;
+}
+
+.sc-FocusPointsHelper .frame2, .sc-FocusPointsHelper .frame5, .sc-FocusPointsHelper .frame8 {
+	width: 22.2222222%;
+	left: 66.6666667%;
+}
+
+.sc-FocusPointsHelper .frame3, .sc-FocusPointsHelper .frame6, .sc-FocusPointsHelper .frame9 {
+	width: 11.1111111%;
+	left: 88.8888889%;
+}
+
+.sc-FocusPointsHelper .frame1, .sc-FocusPointsHelper .frame2, .sc-FocusPointsHelper .frame3 {
+	height: 66.6666667%;
+	top: 0;
+}
+
+.sc-FocusPointsHelper .frame4, .sc-FocusPointsHelper .frame5, .sc-FocusPointsHelper .frame6 {
+	height: 22.2222222%;
+	top: 66.6666667%;
+}
+
+.sc-FocusPointsHelper .frame7, .sc-FocusPointsHelper .frame8, .sc-FocusPointsHelper .frame9 {
+	height: 11.1111111%;
+	top: 88.8888889%;
+}

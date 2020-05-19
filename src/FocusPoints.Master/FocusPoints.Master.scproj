@@ -1,0 +1,66 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>67c97d1f-b792-4e86-8f6b-68aa5b738248</ProjectGuid>
+    <SourceWebPhysicalPath>
+    </SourceWebPhysicalPath>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebVirtualPath>
+    </SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>FocusPoints.Master</AssemblyName>
+    <Name>FocusPoints.Master</Name>
+    <RootNamespace>FocusPoints.Master</RootNamespace>
+    <EnableCodeGeneration>True</EnableCodeGeneration>
+    <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
+    <CodeGenTargetProject>FocusPoints</CodeGenTargetProject>
+    <CodeGenFile>Models\Templates.cs</CodeGenFile>
+    <BaseTransformFile>Item.tt</BaseTransformFile>
+    <HeaderTransformFile>Header.tt</HeaderTransformFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\templates.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Unversioned.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Unversioned\Image.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><CodeGenData>name=UnversionedImage</CodeGenData></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Unversioned\Image\FocusPoints.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Unversioned\Image\FocusPoints\FocusPoint.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Versioned.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Versioned\Image.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><CodeGenData>name=VersionedImage</CodeGenData></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Versioned\Image\FocusPoints.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\System\Media\Versioned\Image\FocusPoints\FocusPoint.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+  </ItemGroup>
+  <ItemGroup>
+    <CodeGenTemplate Include="..\..\Code Generation Templates\GeneralExtensions.tt"><Link>Code Generation Templates\GeneralExtensions.tt</Link>
+    </CodeGenTemplate><CodeGenTemplate Include="..\..\Code Generation Templates\Header.tt"><Link>Code Generation Templates\Header.tt</Link>
+    </CodeGenTemplate><CodeGenTemplate Include="..\..\Code Generation Templates\Helpers.tt"><Link>Code Generation Templates\Helpers.tt</Link>
+    </CodeGenTemplate><CodeGenTemplate Include="..\..\Code Generation Templates\Inflector.tt"><Link>Code Generation Templates\Inflector.tt</Link>
+    </CodeGenTemplate><CodeGenTemplate Include="..\..\Code Generation Templates\Item.tt"><Link>Code Generation Templates\Item.tt</Link>
+    </CodeGenTemplate><CodeGenTemplate Include="..\..\Code Generation Templates\StringExtensions.tt"><Link>Code Generation Templates\StringExtensions.tt</Link>
+    </CodeGenTemplate></ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>
