@@ -4,7 +4,7 @@
 	<Import Project="RoslynCompiler.wpp.targets" />
 	<Import Project="Sitecore.wpp.targets" />
 	<ItemGroup>
-		<ExcludeFromPackageFiles Include="bin\System.IdentityModel.Tokens.Jwt.*;bin\Microsoft.IdentityModel.Logging.*;bin\Microsoft.IdentityModel.Tokens.*">
+		<ExcludeFromPackageFiles Include="bin\Microsoft.IdentityModel.Logging.*;bin\Microsoft.IdentityModel.Tokens.*;bin\System.IdentityModel.Tokens.Jwt.*">
 			<FromTarget>FocusPoints</FromTarget>
 		</ExcludeFromPackageFiles>
 	</ItemGroup>

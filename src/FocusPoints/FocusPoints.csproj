@@ -82,9 +82,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\CustomDictionary.xml">
+    <CodeAnalysisDictionary Include="..\..\CustomDictionary.xml">
       <Link>CustomDictionary.xml</Link>
-    </Content>
+    </CodeAnalysisDictionary>
     <Content Include="sitecore\shell\client\FocusPoints\Views\FocusPointsHelper.cshtml" />
     <None Include="sitecore\shell\client\FocusPoints\Web.config" />
     <None Include="Web.config" />
