@@ -6,13 +6,13 @@
 	"devDependencies": {
 		"gulp": "^4.0.2",
 		"gulp-load-plugins": "^2.0.3",
-		"gulp-msbuild": "^0.6.2",
+		"gulp-msbuild": "^0.6.3",
 		"run-sequence": "^2.2.1"
 	},
 	"scripts": {
 		"gulp": "gulp",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "TFE",
+	"author": "theFactor.e",
 	"license": "ISC"
 }
