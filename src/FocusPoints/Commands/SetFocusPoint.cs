@@ -34,7 +34,7 @@
 					{ "focusPoint", focusPoint.ToString() },
 				};
 
-				Context.ClientPage.Start(this, "OpenDialog", parameters);
+				Context.ClientPage.Start(this, nameof(this.OpenDialog), parameters);
 			}
 		}
 
