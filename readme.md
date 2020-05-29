@@ -10,11 +10,11 @@
 
 ## Sitecore module
 
-Download the module from https://github.com/Focus-Points/focuspoints-sitecore/releases or go to the `Sitecore-packages` folder and install the module into Sitecore. Afterwards publish the all the items under `/sitecore/templates/System/Media`.
+Download the module from https://github.com/Focus-Points/focuspoints-sitecore/releases or go to the `Sitecore-packages` folder and install the module into Sitecore. Afterwards publish all the items under `/sitecore/templates/System/Media`.
 
 # Configuration
 
-In order to start using the FocusPoints module functionality in the website we need to provide it with the correct credentials. Open the file `/App_config/Include/FocusPoints.config` and change the issuer and secret provided by [https://focuspoints.io/](https://focuspoints.io/).
+In order to start using the FocusPoints module functionality in the website you need to provide it with the correct credentials. Open the file `/App_config/Include/FocusPoints.config` and change the issuer and secret provided by [https://focuspoints.io/](https://focuspoints.io/).
 
 ## Configuration settings
 
@@ -46,7 +46,7 @@ Setting a focus point is very easy.
 
 Instead of using `MediaManager.GetMediaUrl()` to return the Sitecore image URL you can use `FocusPointsHelper.GetMediaUrl()` to return the FocusPoints image URL.
 
-To use the helper, first reference the `FocusPoints.dll` then add a `using FocusPoints.Helpers;` to your code and then use the example code provided below. This will return a `string` with the URL to the image.
+To use the helper, first reference the `FocusPoints.dll`, then add a `using FocusPoints.Helpers;` to your code and then use the example code provided below. This will return a `string` with the URL to the image.
 
 ### Example
 
@@ -67,7 +67,7 @@ var image = FocusPointsHelper.GetMediaUrl(
 
 # Serving images from your own (custom) domain
 
-When using FocusPoints the domain your images are services from will be `images.focuspoints.io`. If this is undesirable behavior it is possible to serve the images from your own (custom) domain by using a proxy. In order to do so use the following steps:
+When using FocusPoints the domain your images are served from will be `images.focuspoints.io`. If this is undesirable behavior it is possible to serve the images from your own (custom) domain by using a proxy. In order to do so use the following steps:
 
 - Set the FocusPoints URL to a relative path (e.g. `/images/`) or custom domain (e.g. `https://focuspoints.yourdomain.com`). You can do this by opening `/App_config/Include/FocusPoints.config` and setting `FocusPoints.Client.EndpointUrl` to the relative path or custom domain.
 - Create a Reverse Proxy in Internet Information Services (IIS) and proxy all requests for the `/images/` path or custom domain to `https://images.focuspoints.io`.
