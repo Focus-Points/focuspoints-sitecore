@@ -95,4 +95,4 @@ Follow the steps below to build and publish the solution in Visual Studio.
 
 ## Attribution
 
-This code uses the [jquery-focuspoint]([https://github.com/jonom/jquery-focuspoint](https://github.com/jonom/jquery-focuspoint)) plugin created by [Jono Menz (jonom)]([https://github.com/jonom](https://jonomenz.com/)).
+This code uses the [jquery-focuspoint](https://github.com/jonom/jquery-focuspoint) plugin created by [Jono Menz (jonom)](https://jonomenz.com/).
