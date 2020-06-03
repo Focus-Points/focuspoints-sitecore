@@ -1,10 +1,16 @@
+
 # Table of Contents
 
+- [Introduction](#introduction)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Serving images from your own (custom) domain](#serving-images-from-your-own-custom-domain)
 - [Build and Publish solution in Visual Studio](#build-and-publish-solution-in-visual-studio)
+
+# Introduction
+
+This module enables integration of the (paid) services of [FocusPoints.io](https://focuspoints.io/) into your Sitecore solution. It does not work on its own, without these services. To get started you can get a 30-day trial which requires no payment info and it is obligation free
 
 # Installation
 
@@ -14,7 +20,7 @@ Download the module from https://github.com/Focus-Points/focuspoints-sitecore/re
 
 # Configuration
 
-In order to start using the FocusPoints module functionality in the website you need to provide it with the correct credentials. Open the file `/App_config/Include/FocusPoints.config` and change the issuer and secret provided by [https://focuspoints.io/](https://focuspoints.io/).
+In order to start using the FocusPoints module functionality in the website you need to provide it with the correct credentials. Open the file `/App_config/Include/FocusPoints.config` and change the issuer and secret provided by [FocusPoints.io](https://focuspoints.io/).
 
 ## Configuration settings
 
@@ -72,7 +78,11 @@ When using FocusPoints the domain your images are served from will be `images.fo
 - Set the FocusPoints URL to a relative path (e.g. `/images/`) or custom domain (e.g. `https://focuspoints.yourdomain.com`). You can do this by opening `/App_config/Include/FocusPoints.config` and setting `FocusPoints.Client.EndpointUrl` to the relative path or custom domain.
 - Create a Reverse Proxy in Internet Information Services (IIS) and proxy all requests for the `/images/` path or custom domain to `https://images.focuspoints.io`.
 
-# Build and Publish solution in Visual Studio
+# Contribute
+
+Instead of directly using the package (found under [installation](#installation)) you can also build your own solution.
+
+## Build and Publish solution in Visual Studio
 
 Follow the steps below to build and publish the solution in Visual Studio.
 
@@ -82,3 +92,7 @@ Follow the steps below to build and publish the solution in Visual Studio.
 - Open the solution in **Visual Studio**.
 - Restore the **NuGet** packages.
 - Go to the **Task Runner Explorer** and run the task **Build-and-Publish-Solution**.
+
+## Attribution
+
+This code uses the [jquery-focuspoint]([https://github.com/jonom/jquery-focuspoint](https://github.com/jonom/jquery-focuspoint)) plugin created by [Jono Menz (jonom)]([https://github.com/jonom](https://jonomenz.com/)).
