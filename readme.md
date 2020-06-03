@@ -10,7 +10,7 @@
 
 ## Sitecore module
 
-Choose the correct version of the module from the `releases` folder and install into Sitecore. Afterwards publish the all the items under `/sitecore/templates/System/Media`.
+Download the module from https://github.com/Focus-Points/focuspoints-sitecore/releases or go to the `Sitecore-packages` folder and install the module into Sitecore. Afterwards publish the all the items under `/sitecore/templates/System/Media`.
 
 # Configuration
 
