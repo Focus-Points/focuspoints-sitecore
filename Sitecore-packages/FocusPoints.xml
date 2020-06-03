@@ -1,0 +1,102 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>FocusPoints</PackageName>
+      <Author>theFactor.e</Author>
+      <Version>1.0.0.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/{5202FD68-2A73-421C-BA30-609F48F214D2}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/{26448641-D6D3-4DB2-AAEF-64ACF7695CBC}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/CancelButtonRuleDefinition/{A4BF796F-0C52-45C3-8922-2B39D8EE9A23}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/FocusPointsHelper/{32477EE6-0138-40B4-A9AD-8D2D831E879C}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/MainTitle/{7BD75A8E-196C-4642-8427-49896AE290F9}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/Save/{B4BD383D-24B6-4887-8CA6-83302AADEE3A}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/SaveButtonRuleDefinition/{732D2CDA-632B-4A87-9CD5-B3F7D0AC61D1}/invariant/0</x-item>
+        <x-item>/core/sitecore/client/Your Apps/FocusPoints/PageSettings/Style/{422B8405-DD2E-4307-BF3D-AF896B1C0EF9}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/Images/Media/FocusPoints/{9A01D7F8-BC8C-47C4-A245-D7CB85760E9F}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Contextual Ribbons/Images/Media/FocusPoints/Set focus point/{9BDFC461-3726-437A-969D-F1309D03F791}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Media/Imager/Ribbon/Image/FocusPoints/{7E107E9B-0A62-4C64-81CD-970250F75F36}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Media/Imager/Ribbon/Image/FocusPoints/Set focus point/{77D96CEC-6779-4B23-812E-D8C28C28E2AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Media/Unversioned/Image/FocusPoints/{33E793F1-8D69-4E31-ACE6-3F5861B8E357}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Media/Unversioned/Image/FocusPoints/FocusPoint/{D015A066-31E4-4C80-AFB8-47F66B2EC99E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Media/Versioned/Image/FocusPoints/{5E130420-5EAB-4B12-8F10-4D4B67CDBDF0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/System/Media/Versioned/Image/FocusPoints/FocusPoint/{FC10562F-64EA-4485-B655-2C758620B1DC}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/FocusPoints.config</x-item>
+        <x-item>/bin/FocusPoints.dll</x-item>
+        <x-item>/bin/Microsoft.IdentityModel.JsonWebTokens.dll</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Images/</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Images/target.png</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Scripts/</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Scripts/FocusPointsHelper.js</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Scripts/Libraries/</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Scripts/Libraries/jquery.focuspoint.js</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Styles/</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Styles/style.css</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Views/</x-item>
+        <x-item>/sitecore/shell/client/FocusPoints/Views/FocusPointsHelper.cshtml</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
